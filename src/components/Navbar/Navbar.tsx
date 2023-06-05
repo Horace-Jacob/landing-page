@@ -2,46 +2,59 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <header
-      className="navbar navbar-sticky navbar-expand-lg navbar-dark"
-      style={{ backgroundColor: "#542FD8" }}
-    >
+    <header style={{ backgroundColor: "#542FD8" }}>
       <div className="container position-relative">
-        <a href="/" className="navbar-brand">
-          <img
-            className="navbar-brand-regular"
-            src={require("../../images/logo-white.png")}
-            alt="logo"
-            width="50"
-            height="50"
-          />
-        </a>
-        <div className="navbar-inner">
-          <nav>
-            <ul className="navbar-nav text-white">
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#home">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#home">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#home">
-                  Pages
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#home">
-                  Screenshots
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <nav className="navbar navbar-expand-lg navbar-light py-3">
+          <div className="container px-5">
+            <a href="/" className="navbar-brand">
+              <img
+                className="navbar-brand-regular"
+                src={require("../../images/logo-white.png")}
+                alt="logo"
+                width="50"
+                height="50"
+              />
+            </a>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                <li className="nav-item">
+                  <a className="nav-link text-white" href="/">
+                    Home
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-white" href="/">
+                    Features
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-white" href="/">
+                    Pages
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-white" href="/">
+                    Screenshots
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
   );
