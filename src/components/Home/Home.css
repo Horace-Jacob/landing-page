@@ -2,15 +2,20 @@
   background-color: white;
   border-radius: 100px;
   letter-spacing: 1px;
-  transition: all 0.3s ease;
+  transition: all 0.6s !important;
   font-size: 15px;
   font-weight: 400;
 }
 
 .landing-btn:hover {
   background: linear-gradient(-47deg, #8731e8 0%, #4528dc 100%);
+  color: white;
 }
 
 .welcome-intro {
   padding: 100px 0 0 0;
+}
+
+.shape-bottom{
+  margin-top: -185px;
 }

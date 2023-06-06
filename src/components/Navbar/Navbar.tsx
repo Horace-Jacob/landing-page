@@ -5,7 +5,7 @@ export const Navbar = () => {
     <header style={{ backgroundColor: "#542FD8" }}>
       <div className="container position-relative">
         <nav className="navbar navbar-expand-lg navbar-light py-3">
-          <div className="container px-5">
+          <div className="container p-0">
             <a href="/" className="navbar-brand">
               <img
                 className="navbar-brand-regular"
@@ -31,17 +31,17 @@ export const Navbar = () => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                <li className="nav-item">
+                <li className="nav-item me-5">
                   <a className="nav-link text-white" href="/">
                     Home
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item me-5">
                   <a className="nav-link text-white" href="/">
                     Features
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item me-5">
                   <a className="nav-link text-white" href="/">
                     Pages
                   </a>
