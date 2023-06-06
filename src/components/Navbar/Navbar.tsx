@@ -2,6 +2,7 @@ import React from "react";
 
 export const Navbar = () => {
   return (
+    //test
     <header style={{ backgroundColor: "#542FD8" }}>
       <div className="container position-relative">
         <nav className="navbar navbar-expand-lg navbar-light py-3">
