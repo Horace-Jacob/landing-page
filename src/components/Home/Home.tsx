@@ -1,14 +1,11 @@
 import React from "react";
 import "./Home.css";
 import { ReactComponent as LandingSvg } from "../../images/landing.svg";
-import {ReactComponent as Wave1} from "../../images/Wave1.svg";
+import { ReactComponent as Wave1 } from "../../images/Wave1.svg";
 
 export const Home = () => {
   return (
-    <div
-      className="pt-5 overflow-hidden"
-      style={{ background: "#542FD8" }}
-    >
+    <section className="pt-3 overflow-hidden primary-bg">
       <div className="container position-relative">
         <div className="row gx-5 align-items-center">
           <div className="col-12 col-md-6 col-lg-7">
@@ -42,8 +39,8 @@ export const Home = () => {
         </div>
       </div>
       <div className="shape-bottom">
-        <Wave1/>
+        <Wave1 />
       </div>
-    </div>
+    </section>
   );
 };

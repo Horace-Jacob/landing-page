@@ -4,3 +4,11 @@ body {
   font-family: "Roboto Mono", monospace;
   font-size: medium;
 }
+
+.primary-bg {
+  background-color: #542fd8;
+}
+
+.text-primary {
+  color: #542fd8 !important;
+}

@@ -10,12 +10,13 @@
 .landing-btn:hover {
   background: linear-gradient(-47deg, #8731e8 0%, #4528dc 100%);
   color: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .welcome-intro {
   padding: 100px 0 0 0;
 }
 
-.shape-bottom{
+.shape-bottom {
   margin-top: -185px;
 }

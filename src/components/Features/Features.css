@@ -1,0 +1,30 @@
+.feature-heading {
+  margin-bottom: 80px;
+}
+
+.feature-heading > h2::after {
+  position: relative;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 70px;
+  background-color: #542fd8;
+  bottom: -15px;
+}
+
+.card-box {
+  border: 1px solid white;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-box:hover {
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.15) !important;
+  transform: translateY(-10px);
+}
+
+.custom-icon {
+  width: 80px;
+  height: 80px;
+}
