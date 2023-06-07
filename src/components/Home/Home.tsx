@@ -5,7 +5,7 @@ import { ReactComponent as Wave1 } from "../../images/Wave1.svg";
 
 export const Home = () => {
   return (
-    <section className="pt-3 overflow-hidden primary-bg">
+    <section className="pt-3 overflow-hidden">
       <div className="container position-relative">
         <div className="row gx-5 align-items-center">
           <div className="col-12 col-md-6 col-lg-7">

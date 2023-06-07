@@ -1,18 +1,18 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCubes } from "@fortawesome/free-solid-svg-icons";
 
 export const Navbar = () => {
   return (
-    <header className="primary-bg">
+    <header className="">
       <div className="container position-relative">
         <nav className="navbar navbar-expand-lg navbar-light py-3">
           <div className="container p-0">
             <a href="/" className="navbar-brand">
-              <img
-                className="navbar-brand-regular"
-                src={require("../../images/logo-white.png")}
-                alt="logo"
-                width="50"
-                height="50"
+              <FontAwesomeIcon
+                icon={faCubes}
+                style={{ color: "white" }}
+                className="nav-icon"
               />
             </a>
             <button
