@@ -94,6 +94,7 @@ export const Work = () => {
                 saepe, voluptates quis enim incidunt obcaecati?
               </p>
             </div>
+            
           </div>
         </div>
       </div>
