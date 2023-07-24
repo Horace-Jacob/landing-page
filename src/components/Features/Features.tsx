@@ -6,7 +6,7 @@ import { featureData } from "../../utils/data";
 export const Features = () => {
   return (
     <section className="overflow-hidden">
-      <div className="container">
+      <div className="container mb-5">
         <div className="row">
           <div className="col-12 col-md-10 col-lg-7">
             <div className="feature-heading">
