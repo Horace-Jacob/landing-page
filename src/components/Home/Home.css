@@ -20,3 +20,9 @@
 .shape-bottom {
   margin-top: -185px;
 }
+
+@media (max-width: 767px) {
+  .shape-bottom {
+    margin-top: 0;
+  }
+}
